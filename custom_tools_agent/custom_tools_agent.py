@@ -13,13 +13,6 @@ llm = ChatOpenAI(
     http_client=httpx.Client(verify=False)
 )
 
-tools = load_tools(["llm-math"], llm=llm)
-
-agent_tool = create_react_agent(llm, tools)
-
-messages = agent_tool.invoke({"messages": [("human", "What is the square root of 101?")]})
-print(messages['messages'][-1].content)
-
 @tool
 def financial_report(company_name: str, revenue: int, expenses: int) -> str:
   """Generate a financial report for a company that calculates net income."""
