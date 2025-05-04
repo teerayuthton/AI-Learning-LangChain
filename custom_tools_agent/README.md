@@ -1,25 +1,13 @@
-# ReAct (Reasoning and Acting) agent using LangGraph and LangChain
-- This example demonstrates how to create a ReAct agent using LangGraph and LangChain.
-- Required install
-```
-pip install langgraph==0.2.74
-pip install langchain-community langchain-core
-```
+# Custom tools for agents
 
-![Screenshot 2568-05-01 at 21 59 19](https://github.com/user-attachments/assets/3e853f76-44f5-4767-ab2a-61dc6763b371)
+- This code demonstrates how to create a custom tool for a LangChain agent using the React framework.
 
-The result is
-```
-The square root of 101 is approximately 10.05.
-```
+![Screenshot 2568-05-03 at 22 10 23](https://github.com/user-attachments/assets/3bdb86fe-05b0-436b-b2dd-1eb9ed47011c)
 
-If we use only `print(messages)`
-The result it will be
+- `@tool` It using for mark the function can call as tool by agent.
+- The result is
 ```
-{'messages':
-  [HumanMessage(content='What is the square root of 101?'.....
-  AIMessage(content=''...
-  ToolMessage(content='Answer: 10.04987562112089'...
-  AIMessage(content='The square root of 101 is approximately 10.05.'
-}
+- **Revenue:** $10,000,000
+- **Expenses:** $8,000,000
+- **Net Income:** $2,000,000
 ```
