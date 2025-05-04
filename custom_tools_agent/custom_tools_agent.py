@@ -26,6 +26,7 @@ def financial_report(company_name: str, revenue: int, expenses: int) -> str:
 
 agent_custom_tool = create_react_agent(llm, [financial_report])
 
-messages = agent_custom_tool.invoke({"messages": [("human", "TechStack generated made $10 million with $8 million of costs. Generate a financial report.")]})
+messages = agent_custom_tool.invoke({"messages": [("human", f"""TechStack generated made $10 million
+ with $8 million of costs. Generate a financial report.""")]})
 
 print(messages['messages'][-1].content)
