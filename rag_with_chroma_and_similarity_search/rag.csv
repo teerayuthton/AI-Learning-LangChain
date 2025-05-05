@@ -1,0 +1,10 @@
+[
+  Document(
+    page_content="In all marketing copy, TechStack should always be written with the T and S capitalized. Incorrect: techstack, Techstack, etc.",
+    metadata={"guideline": "brand-capitalization"}
+  ),
+  Document(
+    page_content="Our users should be referred to as techies in both internal and external communications.",
+    metadata={"guideline": "referring-to-users"}
+  )
+]
