@@ -4,7 +4,7 @@ For learning and demonstration LangChain
 ## 📌 Pinned Example
 
 🔹 **[RAG with Chroma and Similarity search](https://github.com/teerayuthton/AI-Learning-LangChain/tree/main/rag_with_chroma_and_similarity_search/)**  
-_This example demonstrates how to use LangChain with Chroma and OpenAI's GPT-4o-mini model for a retrieval-augmented generation (RAG) task._  
+_🔥🔥This example demonstrates how to use LangChain with Chroma and OpenAI's GPT-4o-mini model for a retrieval-augmented generation (RAG) task._  
 _Example using RAG with Chroma and Similarity search_
 
 🔹 **[ReAct (Reasoning and Acting) agent using LangGraph and LangChain](https://github.com/teerayuthton/AI-Learning-LangChain/tree/main/react_agent/)**  
