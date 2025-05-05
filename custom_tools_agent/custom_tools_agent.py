@@ -1,3 +1,6 @@
+# This code demonstrates how to create a custom tool for a LangChain agent using the React framework.
+# This example shows how to create a custom tool that generates a financial report for a company.
+# The custom tool calculates the net income based on the provided revenue and expenses.
 import os
 from langchain_community.agent_toolkits.load_tools import load_tools                                                                        
 from langchain_openai import ChatOpenAI        
